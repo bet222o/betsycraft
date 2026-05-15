@@ -5,10 +5,6 @@ template = "custom_page.html"
 block = "page-heading"
 title = "About"
 [[extra.content_blocks]]
-block = "page-image"
-image = "/images/page-1.jpg"
-image_alt = "Betsy Craft"
-[[extra.content_blocks]]
 block = "content"
 content_html = """
       <p>I&rsquo;m Betsy Craft &mdash; a harm reductionist, community-engaged
