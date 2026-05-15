@@ -5,14 +5,14 @@ paginate_by = 6
 [[extra.content_blocks]]
 block = "page-heading"
 title = "Blog"
-description = "Vonge blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!"
+description = "Field notes from harm reduction work, drug policy advocacy, zine launches, and community events around Colorado."
 [[extra.content_blocks]]
 block = "posts-list"
 show_posts = true
 [[extra.content_blocks]]
 block = "newsletter"
-newsletter_title = "Join my mailing list"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
+newsletter_title = "Stay in touch"
+newsletter_description = "Updates on harm reduction work, drug policy in Colorado, and community projects."
 newsletter_identifier = ""
 newsletter_button = "Subscribe"
 +++

@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://paberr.github.io/vonge-zola-theme/"
+base_url = "https://betsycraft.com"
 
-title = "Vonge"
-author = "Vanessa Marley"
-description = "Vonge is a portfolio site template for Zola"
+title = "Betsy Craft"
+author = "Betsy Craft"
+description = "Harm reductionist, community-engaged researcher, and drug policy advocate based in Colorado."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -33,80 +33,71 @@ navigation = [
     { url = "$BASE_URL/projects", title = "Projects" },
     { url = "$BASE_URL/posts", title = "Blog" },
     { url = "$BASE_URL/tags", title = "Tags" },
-    { url = "", title = "Pages", submenu = [
-        { url = "$BASE_URL/about", title = "About" },
-        { url = "$BASE_URL/elements", title = "Elements" }
-    ] }
+    { url = "$BASE_URL/about", title = "About" },
 ]
 social_icons = [
-    { url = "https://github.com/cydave", icon = "GitHub" },
-    { url = "https://twitter.com/_cydave", icon = "Twitter" },
+    { url = "https://www.linkedin.com/in/betsycraft/", icon = "LinkedIn" },
+    { url = "https://www.instagram.com/eastfaxhr", icon = "Instagram" },
+    { url = "https://www.instagram.com/coloradodpc", icon = "Instagram" },
     { url = "$BASE_URL/atom.xml", icon = "RSS" },
-    { url = "https://pinterest.com", icon = "Pinterest"},
 ]
 date_format = "%d %b %Y"
 language_direction = "auto"
-keywords = ["keyword1", "keyword2", "keyword3"]
+keywords = ["harm reduction", "drug policy", "Colorado", "peer support", "naloxone", "advocacy"]
 
 [extra.newsletter]
-newsletter_title = "Join my mailing list"
+newsletter_title = "Stay in touch"
 newsletter_identifier = ""
 newsletter_button = "Subscribe"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
+newsletter_description = "Updates on harm reduction work, drug policy in Colorado, and community projects."
 
 [extra.footer]
 menu = [
     { url = "$BASE_URL", title = "Home" },
     { url = "$BASE_URL/projects/", title = "Projects" },
-    { url = "$BASE_URL/elements/", title = "Elements" },
-    { url = "$BASE_URL/about/", title = "About" },
     { url = "$BASE_URL/posts/", title = "Blog" },
+    { url = "$BASE_URL/about/", title = "About" },
 ]
 #copyright = ""
 
 
 [[extra.content_blocks]]
 block = "hero"
-title = "Hi there, I am Vanessa Marley"
-description_html = "<strong>Photographer</strong> and Visual Content Strategist from Albany. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork."
+title = "Hi, I'm Betsy Craft"
+description_html = "<strong>Harm reductionist, community-engaged researcher, and drug policy advocate</strong> based in Colorado. I work at the intersection of lived experience, public health, and policy &mdash; partnering with people who use drugs, peer organizers, and coalitions to shift Colorado away from punishment and toward care."
 image = "/images/01.jpg"
-image_alt = "Vanessa Marley's picture"
+image_alt = "Betsy Craft"
 cta_button_link = "#contact"
-cta_button = "Get in touch"
 works_button_link = "#projects"
-works_button = "See my works"
+cta_button = "Get in touch"
+works_button = "See my work"
 [[extra.content_blocks]]
 block = "projects-section"
-title = "Latest Works"
+title = "Selected Projects"
 description_html = """
-    <p>I show only my best works built completely with passion, simplicity,
-    and creativity!</p>"""
+    <p>Coalitions, research collaborations, and community storytelling projects
+    I&rsquo;ve helped build &mdash; all rooted in liberatory harm reduction and
+    drug user leadership.</p>"""
 link_url = "/projects"
 show_projects = true
 [[extra.content_blocks]]
-block = "testimonials-section"
-title = "Happy Clients"
-description_html = ""
-show_testimonials = true
-[[extra.content_blocks]]
 block = "blog-section"
-title = "Recent Posts"
+title = "From the Blog"
 description_html = """
-    <p>Vonge blog features productivity, tips, inspiration and strategies for
-    massive profits. Find out how to set up a successful blog or how to make
-    yours even better!</p>"""
+    <p>Field notes from harm reduction work, zine launches, advocacy days, and
+    community events around Colorado.</p>"""
 link_url = "/posts"
 show_posts = true
 [[extra.content_blocks]]
 block = "newsletter"
-newsletter_title = "Join my mailing list"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
+newsletter_title = "Stay in touch"
+newsletter_description = "Updates on harm reduction work, drug policy in Colorado, and community projects."
 newsletter_identifier = ""
 newsletter_button = "Subscribe"
 [[extra.content_blocks]]
 block = "contact-form"
 form_title = "Get in touch"
-form_description = "Vonge comes with a built-in contact form."
+form_description = "Have a project, collaboration, or speaking opportunity? Drop a note."
 form_success_page = ''
-form_submission_email = "site@example.com"
-form_button_text = "Send now"
+form_submission_email = "betsy.coloradodpc@gmail.com"
+form_button_text = "Send"
