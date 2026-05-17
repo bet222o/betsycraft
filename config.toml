@@ -66,6 +66,8 @@ menu = [
 #copyright = ""
 
 
+# Home Page
+# This is all the content on your home page, below.
 [[extra.content_blocks]]
 block = "hero"
 title = "Hi, I'm Betsy Craft"
