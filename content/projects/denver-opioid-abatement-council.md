@@ -5,8 +5,6 @@ title = "Denver Opioid Abatement Council"
 description = "Mayoral appointment as Community Advisor, two consecutive terms."
 [taxonomies]
 tags = ["drug policy", "Denver", "advocacy", "lived experience", "project"]
-[extra]
-image = '/images/project-5.jpg'
 +++
 I serve as a **Community Advisor on the Denver Opioid Abatement Council
 (DOAC)**, a mayoral appointment I've now held across two consecutive terms.
