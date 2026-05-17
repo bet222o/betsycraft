@@ -6,7 +6,7 @@ description = "Peer-led drug policy advocacy in Colorado jails."
 [taxonomies]
 tags = ["Harm Reduction", "peer support", "drug policy", "jails", "project"]
 [extra]
-image = 'images/projects/c2pan.png'
+image = 'images/projects/C2PANlogo.png'
 +++
 
 The **Colorado Peer Policy Action Network (C2PAN)** is a peer-led network that
