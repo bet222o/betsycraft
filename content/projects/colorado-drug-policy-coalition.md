@@ -6,7 +6,7 @@ description = "Statewide Harm Reduction policy."
 [taxonomies]
 tags = ["drug policy", "Harm Reduction", "OPC", "coalition", "project"]
 [extra]
-image = '/images/projects/codpc.png'
+image = '/images/projects/CODPClogo.jpg'
 logo = true
 +++
 I'm the **Policy Director** at the **Colorado Drug Policy Coalition
