@@ -8,12 +8,14 @@ tags = ["photovoice", "arts-based research", "incarceration", "mental health", "
 [extra]
 image = '/images/project-7.jpg'
 +++
+
 **High Walls** is a community-led photovoice project on incarceration,
-mental health, and substance use, exhibited at the **Redline Contemporary
-Art Center** in Denver on **August 17, 2025**. The project was created with
-community members who have lived experience of incarceration and probation
-in the Denver metro area, and presented in collaboration with Macht,
-Walker, Moffett, McConnellogue, and Wise.
+mental health, and substance use, exhibited at the [**Redline
+Contemporary Art Center**](https://www.redlineart.org/high-walls-summit)
+in Denver on **August 17, 2025**. The project was created with community
+members who have lived experience of incarceration and probation in the
+Denver metro area, and presented in collaboration with Macht, Walker,
+Moffett, McConnellogue, and Wise.
 
 ### About the method
 

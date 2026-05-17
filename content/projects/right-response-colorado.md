@@ -6,7 +6,8 @@ description = "Advocating for community care, not incarceration."
 [taxonomies]
 tags = ["drug policy", "Harm Reduction", "advocacy", "coalition", "project"]
 [extra]
-image = '/images/project-2.jpg'
+image = '/images/projects/Right-Response-Colorado.png'
+logo = true
 +++
 **Right Response Colorado** works at the intersection of people with unmet
 health needs and the criminal legal system, advocating for evidence-based
