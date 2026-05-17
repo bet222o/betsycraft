@@ -1,12 +1,14 @@
 {% macro hero(data) %}
 <!-- begin hero -->
 {% set c = 'c-hero' %}
-{% set has_banner = data.background_image and data.background_image | length > 0 %}
+{% set background_image = data.background_image | default(value="") %}
+{% set background_image_text = data.background_image_text | default(value="") %}
+{% set background_image_alt = data.background_image_alt | default(value="") %}
 <section class="{{c}} animate">
-  {% if has_banner %}
-  <div class="{{c}}__banner" role="img" aria-label="{{ data.background_image_alt | default(value='') }}" style="background-image: url('{{ get_url(path=data.background_image) }}');">
-    {% if data.background_image_text %}
-    <span class="{{c}}__banner-text">{{ data.background_image_text }}</span>
+  {% if background_image %}
+  <div class="{{c}}__banner" role="img" aria-label="{{ background_image_alt }}" style="background-image: url('{{ get_url(path=background_image) }}');">
+    {% if background_image_text %}
+    <span class="{{c}}__banner-text">{{ background_image_text }}</span>
     {% endif %}
   </div>
   {% endif %}
