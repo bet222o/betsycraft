@@ -67,7 +67,11 @@ content_html = """
         OR.</strong> &ldquo;Arts-Based Anthropology and Liberatory Harm
         Reduction: Perspectives from a University Researcher&ndash;Community
         Member Graphic Novel Collaboration.&rdquo; (with Otañez)</li>
+      </ul>
 
+      <img src="/images/speaking/Integrating-Harm-Reduction.png" alt="Harm Reduction is Healthcare: Decreasing Risk and Stigma with People Who Use Drugs" style="width:100%;height:auto;margin:1.5rem 0;">
+
+      <ul>
         <li><strong>American Society of Addiction Medicine &middot; Annual
         Conference.</strong> &ldquo;Harm Reduction is Healthcare: Decreasing
         Risk and Stigma with People Who Use Drugs.&rdquo; (workshop)</li>
