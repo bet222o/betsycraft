@@ -5,7 +5,15 @@
 {% extends "base.html" %}
 {% block main %}
 {% set taxonomy_title = taxonomy.name | replace(from="_",to=" ") | title %}
-{% set title = term.name | title %}
+{# Tags that should render in ALL CAPS in the heading (acronyms). Add to this
+   list as needed — e.g. "aclu", "dpa", "cdc". Anything not in the list falls
+   back to title-case. #}
+{% set acronym_tags = ["OPC"] %}
+{% if term.name in acronym_tags %}
+  {% set title = term.name | upper %}
+{% else %}
+  {% set title = term.name | title %}
+{% endif %}
 {{ page_heading::page_heading(title = title) }}
 
 <div class="container">
