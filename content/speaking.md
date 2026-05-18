@@ -22,19 +22,23 @@ content_html = """
 
       <h2>Recent &amp; upcoming talks</h2>
       <ul>
-        <li><strong>2026 &middot; Atlanta, GA.</strong> &ldquo;They
-        shouldn&rsquo;t have to go through that&rdquo;: Improving mental
-        health and substance use needs during jail incarceration and while on
-        probation in Colorado. Academic Consortium on Criminal Justice and
-        Health Annual Conference. (with LeMasters, Macht, Clifton, Cullins)</li>
+        <li><strong>March 2026 Academic Consortium on Criminal Justice
+        Health Annual Conference &middot; Atlanta, GA.</strong>
+        <em>&ldquo;They shouldn&rsquo;t have to go through that&rdquo;:
+        Improving mental health and substance use needs during jail
+        incarceration and while on probation in Colorado.</em>
+        Co-presented with Dr. LeMasters.</li>
 
-        <li><strong>2026 &middot; Virtual.</strong> Best Practices for
-        Engaging People Who Use Drugs as Research Partners and Participants.
-        Health Systems Node Monthly Seminar. Hosted by Dr. Ingrid Binswanger (with LeMasters)</li>
+        <li><strong>February 2026 Health Systems Node Monthly Seminar
+        &middot; Virtual.</strong> <em>Best Practices for Engaging
+        People Who Use Drugs as Research Partners and Participants.</em>
+        Hosted by Dr. Binswanger. Co-presented with Dr. LeMasters.</li>
 
-        <li><strong>2026 &middot; Virtual.</strong> Invited lecture,
-        Addictions Counseling, Graduate School of Mindfulness Based
-        Transpersonal Counseling Program Instructor: Dr. Jetaun Bailey.</li>
+        <li><strong>February 2026 Invited Lecture at Naropa University
+        &middot; Virtual.</strong> <em>Liberatory Harm Reduction Works.
+        </em> Addictions Counseling, Graduate
+        School of Mindfulness Based Transpersonal Counseling Program
+        Instructor: Dr. Bailey.</li>
       </ul>
 
       <h2>Selected 2025 talks &amp; panels</h2>
