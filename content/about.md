@@ -95,7 +95,7 @@ content_html = """
       <p>If you&rsquo;d like to collaborate on community-engaged research,
       policy advocacy, peer support program design, or Harm Reduction
       education &mdash; or to bring Craft Consulting in on a project &mdash;
-      <a href="mailto:betsy.coloradodpc@gmail.com">please get in touch.</a>"""
+      <a href="/#contact">please get in touch.</a>"""
 [[extra.content_blocks]]
 block = "newsletter"
 newsletter_title = "Stay in touch"
