@@ -22,7 +22,7 @@
           {% set section = get_section(path="projects/_index.md") %}
           {% set total = section.pages | length %}
           {% set per_slide = 2 %}
-          {% set slide_count = (total / per_slide) | round(method="ceil") %}
+          {% set slide_count = (total / per_slide) | round(method="ceil") | int %}
 
           <div class="{{c}}__viewport">
             <div class="{{c}}__track" data-track>
