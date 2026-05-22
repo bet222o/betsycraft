@@ -1,0 +1,121 @@
+{% macro projects_carousel(data) %}
+{% set c = 'c-projects-carousel' %}
+<!-- begin projects carousel -->
+<section class="section {{c}}" id="projects-carousel" data-interval="{{ data.interval | default(value=5000) }}">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="contaniner__inner animate">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">{{ data.title | default(value="Selected Projects") }}</h2>
+              {% if data.link_url %}
+              <a class="section__link" href="{{ data.link_url }}">View all <i class="ion ion-md-arrow-forward"></i></a>
+              {% endif %}
+            </div>
+            {% if data.description_html %}
+            <div class="section__description">{{ data.description_html | safe }}</div>
+            {% endif %}
+          </div>
+
+          {% set section = get_section(path="projects/_index.md") %}
+          {% set total = section.pages | length %}
+          {% set per_slide = 2 %}
+          {% set slide_count = (total / per_slide) | round(method="ceil") | int %}
+
+          <div class="{{c}}__viewport">
+            <div class="{{c}}__track" data-track>
+              {% for i in range(end=slide_count) %}
+              <div class="{{c}}__slide" data-slide="{{ i }}">
+                {% for j in range(end=per_slide) %}
+                  {% set idx = i * per_slide + j %}
+                  {% if idx < total %}
+                    {% set post = section.pages | nth(n=idx) %}
+                    <a href="{{ post.permalink }}" class="{{c}}__card">
+                      <div class="{{c}}__card-image">
+                        {% if post.extra.image %}
+                        <img loading="lazy" src="{{ get_url(path=post.extra.image) }}" alt="{{ post.title }}">
+                        {% endif %}
+                      </div>
+                      <div class="{{c}}__card-body">
+                        <h3 class="{{c}}__card-title">{{ post.title }}</h3>
+                        {% if post.subtitle %}
+                        <p class="{{c}}__card-subtitle">{{ post.subtitle }}</p>
+                        {% endif %}
+                      </div>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          {% if slide_count > 1 %}
+          <div class="{{c}}__controls">
+            <button class="{{c}}__btn {{c}}__btn--prev" type="button" aria-label="Previous" data-prev>
+              <i class="ion ion-md-arrow-back"></i>
+            </button>
+            <div class="{{c}}__dots" data-dots>
+              {% for i in range(end=slide_count) %}
+              <button class="{{c}}__dot{% if i == 0 %} is-active{% endif %}" data-dot="{{ i }}" type="button" aria-label="Go to slide {{ i + 1 }}"></button>
+              {% endfor %}
+            </div>
+            <button class="{{c}}__btn {{c}}__btn--next" type="button" aria-label="Next" data-next>
+              <i class="ion ion-md-arrow-forward"></i>
+            </button>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  var root = document.getElementById('projects-carousel');
+  if (!root) return;
+  var track = root.querySelector('[data-track]');
+  if (!track) return;
+  var slides = track.querySelectorAll('[data-slide]');
+  if (slides.length <= 1) return;
+  var dots = root.querySelectorAll('[data-dot]');
+  var prev = root.querySelector('[data-prev]');
+  var next = root.querySelector('[data-next]');
+  var interval = parseInt(root.getAttribute('data-interval'), 10) || 5000;
+  var idx = 0;
+  var timer = null;
+
+  function go(n) {
+    idx = (n + slides.length) % slides.length;
+    track.style.transform = 'translateX(' + (-idx * 100) + '%)';
+    dots.forEach(function(d, i) { d.classList.toggle('is-active', i === idx); });
+  }
+
+  function startAuto() {
+    stopAuto();
+    timer = setInterval(function() { go(idx + 1); }, interval);
+  }
+  function stopAuto() { if (timer) { clearInterval(timer); timer = null; } }
+
+  dots.forEach(function(d, i) {
+    d.addEventListener('click', function() { go(i); startAuto(); });
+  });
+  if (prev) prev.addEventListener('click', function() { go(idx - 1); startAuto(); });
+  if (next) next.addEventListener('click', function() { go(idx + 1); startAuto(); });
+
+  root.addEventListener('mouseenter', stopAuto);
+  root.addEventListener('mouseleave', startAuto);
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) { stopAuto(); } else { startAuto(); }
+  });
+
+  go(0);
+  startAuto();
+})();
+</script>
+<!-- end projects carousel -->
+{% endmacro projects_carousel %}

@@ -7,15 +7,16 @@
   align-items: center;
   line-height: 1;
   font-weight: 700;
-  border-radius: 16px;
+  border-radius: 0;
   white-space: nowrap;
   border: none;
   outline: none;
   cursor: pointer;
   overflow: hidden;
   transition: all .25s ease;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
   will-change: transform;
+  font-family: $base-font-family;
 
   &:active {
     transform: translateY(2px) scale(0.98);
@@ -23,38 +24,21 @@
 
   &--primary {
     color: $white;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+    background: $purple;
 
     &:hover {
       color: $white !important;
-
-      &:before {
-        opacity: 1;
-      }
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      display: block;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      will-change: transform;
-      transition: opacity 0.35s;
-      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+      background: darken($purple, 6%);
     }
   }
 
   &--secondary {
-    color: $text-color;
-    background: $background-color-alt;
+    color: $slate;
+    background: $lime;
 
     &:hover {
-      color: $text-color;
+      color: $slate;
+      background: darken($lime, 6%);
     }
   }
 

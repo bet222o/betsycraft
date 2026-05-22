@@ -1,5 +1,6 @@
 {% import "components/blog-card.html" as blog_card %}
 {% import "components/blog-section.html" as blog_section %}
+{% import "components/consulting-services.html" as consulting_services %}
 {% import "components/contact-form.html" as contact_form %}
 {% import "components/content.html" as content %}
 {% import "components/hero.html" as hero %}
@@ -9,6 +10,7 @@
 {% import "components/pagination.html" as pagination %}
 {% import "components/posts-list.html" as posts_list %}
 {% import "components/project-card.html" as project_card %}
+{% import "components/projects-carousel.html" as projects_carousel %}
 {% import "components/projects-list.html" as projects_list %}
 {% import "components/projects-section.html" as projects_section %}
 {% import "components/tags-list.html" as tags_list %}
@@ -20,6 +22,10 @@
     {{ blog_card::blog_card(data = block) }}
     {% elif block.block == "blog-section" %}
     {{ blog_section::blog_section(data = block) }}
+    {% elif block.block == "consulting-services" %}
+    {{ consulting_services::consulting_services(data = block) }}
+    {% elif block.block == "projects-carousel" %}
+    {{ projects_carousel::projects_carousel(data = block) }}
     {% elif block.block == "contact-form" %}
     {{ contact_form::contact_form(data = block) }}
     {% elif block.block == "content" %}

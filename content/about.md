@@ -13,8 +13,8 @@ block = "content"
 content_html = """
       <p>I&rsquo;m Betsy Craft &mdash; a Harm Reductionist, community-engaged
       researcher, peer support practitioner, and drug policy advocate based in
-      Colorado. I work at the intersection of lived experience and public
-      health, partnering with people who use drugs, frontline organizers,
+      Colorado. I work at the intersection of lived and living expertise and
+      public health, partnering with people who use drugs, frontline organizers,
       academic researchers, and coalitions to advance evidence-based,
       anti-carceral drug policy.</p>
 
@@ -68,7 +68,7 @@ content_html = """
       &middot; drug user health and overdose prevention &middot; non-punitive
       drug policy &middot; mass incarceration and re-entry &middot;
       jail-based peer-led care &middot; qualitative and arts-based research
-      &middot; liberatory Harm Reduction &middot; community organizing
+      &middot; Harm Reduction &middot; community organizing
       &middot; coalition-building &middot; peer support &middot; systems
       change &middot; lived and living expertise leadership &middot;
       peer-led street outreach implementation &middot; FTIR drug checking
