@@ -82,14 +82,18 @@ works_button_link = "#projects"
 cta_button = "Get in touch"
 works_button = "See my work"
 [[extra.content_blocks]]
-block = "projects-section"
-title = "Selected Projects"
+block = "consulting-services"
+title = "Consulting Services Available"
 description_html = """
-    <p>Coalitions, research collaborations, and community storytelling projects
-    I&rsquo;ve helped build &mdash; all rooted in liberatory Harm Reduction and
-    drug user leadership.</p>"""
-link_url = "/projects"
-show_projects = true
+    <p>Areas where I partner with organizations, coalitions, and community
+    projects &mdash; grounded in lived experience and liberatory Harm Reduction.</p>"""
+cards = [
+    { title = "Elevating Voices in Research" },
+    { title = "Policy and Organizing" },
+    { title = "Research Projects" },
+    { title = "Community Engagement Projects" },
+    { title = "Drug Policy Projects" },
+]
 [[extra.content_blocks]]
 block = "blog-section"
 title = "From the Blog"
@@ -111,3 +115,12 @@ form_description = "Have a project, collaboration, or speaking opportunity? Drop
 form_success_page = 'https://formspree.io/f/mlgvdddz'
 form_submission_email = "betsy.coloradodpc@gmail.com"
 form_button_text = "Send"
+[[extra.content_blocks]]
+block = "projects-carousel"
+title = "Selected Projects"
+description_html = """
+    <p>Coalitions, research collaborations, and community storytelling
+    projects &mdash; rooted in liberatory Harm Reduction and drug user
+    leadership.</p>"""
+link_url = "/projects"
+interval = 5000

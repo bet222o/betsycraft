@@ -1,0 +1,44 @@
+{% macro consulting_services(data) %}
+{% set c = 'c-consulting' %}
+<!-- begin consulting services -->
+<section class="section {{c}}" id="consulting">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="contaniner__inner animate">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">{{ data.title }}</h2>
+              {% if data.link_url %}
+              <a class="section__link" href="{{ data.link_url }}">{{ data.link_label | default(value="Learn more") }} <i class="ion ion-md-arrow-forward"></i></a>
+              {% endif %}
+            </div>
+            {% if data.description_html %}
+            <div class="section__description">{{ data.description_html | safe }}</div>
+            {% endif %}
+          </div>
+
+          <div class="{{c}}__grid">
+            {% for card in data.cards %}
+            <article class="{{c}}__card">
+              <div class="{{c}}__card-inner">
+                <h3 class="{{c}}__card-title">{{ card.title }}</h3>
+                {% if card.description %}
+                <p class="{{c}}__card-desc">{{ card.description }}</p>
+                {% endif %}
+                {% if card.link_url %}
+                <a class="{{c}}__card-link" href="{{ card.link_url }}">{{ card.link_label | default(value="Read more") }} <i class="ion ion-md-arrow-forward"></i></a>
+                {% endif %}
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end consulting services -->
+{% endmacro consulting_services %}

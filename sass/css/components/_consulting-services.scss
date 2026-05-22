@@ -1,0 +1,112 @@
+/* Consulting Services */
+.c-consulting { $c: &;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+    @media only screen and (max-width: $tablet) {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+
+  &__card {
+    position: relative;
+    display: flex;
+    min-height: 220px;
+    padding: 40px 36px;
+    background: lighten($slate, 6%);
+    border: 1px solid rgba($lime, 0.18);
+    border-radius: 0;
+    transition: all .25s ease;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      background: $purple;
+      transition: width .25s ease;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+      border-color: $lime;
+      box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
+
+      &::before {
+        width: 12px;
+        background: $lime;
+      }
+
+      #{$c}__card-title {
+        color: $lime;
+      }
+    }
+
+    /* Make the last odd-numbered card span both columns when total is odd (5 cards) */
+    &:nth-child(5):last-child {
+      grid-column: span 2;
+
+      @media only screen and (max-width: $tablet) {
+        grid-column: span 1;
+      }
+    }
+
+    @media only screen and (max-width: $mobile) {
+      padding: 32px 24px;
+      min-height: 180px;
+    }
+  }
+
+  &__card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 12px;
+  }
+
+  &__card-title {
+    margin: 0 0 12px;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $lime;
+    transition: color .25s ease;
+
+    @media only screen and (max-width: $mobile) {
+      font-size: 22px;
+    }
+  }
+
+  &__card-desc {
+    margin: 0 0 16px;
+    font-size: 16px;
+    line-height: 1.55;
+    color: $cream;
+  }
+
+  &__card-link {
+    margin-top: auto;
+    align-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $purple;
+
+    i {
+      margin-left: 4px;
+    }
+
+    &:hover {
+      color: $lime;
+    }
+  }
+}
