@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 108" width="304" height="108" role="img" aria-label="Betsy Craft">
-  <title>Betsy Craft</title>
-  
-  <circle cx="54" cy="54" r="54" fill="#4593a5"></circle>
-  <text x="54" y="56" text-anchor="middle" dominant-baseline="central" font-family="&#39;Source Serif 4&#39;, &#39;Source Serif Pro&#39;, Georgia, serif" font-style="italic" font-weight="500" font-size="58" letter-spacing="-2" fill="#f5efe4">bc</text>
-  
-  <text x="132" y="46" font-family="&#39;Outfit&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="500" font-size="48" letter-spacing="-0.7" fill="#4593a5">Betsy</text>
-  <text x="132" y="92" font-family="&#39;Outfit&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="500" font-size="48" letter-spacing="-0.7" fill="#4593a5">Craft</text>
-</svg>

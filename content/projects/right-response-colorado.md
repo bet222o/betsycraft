@@ -12,7 +12,7 @@ logo = true
 **Right Response Colorado** works at the intersection of people with unmet
 health needs and the criminal legal system, advocating for evidence-based
 health solutions instead of punishment or incarceration. The coalition brings
-together people and families with living and lived experience, clinicians,
+together people and families with lived and living experience, clinicians,
 researchers, advocates, and academics around shared policy priorities that
 shift Colorado from relying on police and prisons for unmet health needs to a
 fully-funded health care system.

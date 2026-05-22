@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://betsycraft.com"
 
-title = "Betsy Craft"
+title = "Creative Resistance"
 author = "Betsy Craft"
 description = "Harm Reductionist, community-engaged researcher, and drug policy advocate based in Colorado."
 
@@ -20,7 +20,8 @@ taxonomies = [
 ]
 
 [extra]
-logo_image = "images/logo.svg"
+# Remove the leading hashtag from the line below to add the logo back
+# logo_image = "images/logo.svg"
 social_media_share_image = "/images/01.jpg"
 disqus_identifier = ""
 google_analytics = ""
@@ -71,10 +72,10 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 background_image = "/images/group.jpeg"
-background_image_text = "We keep us safe"
+background_image_text = "Creative Resistance"
 background_image_alt = "Community gathering"
 title = "Hi, I'm Betsy Craft"
-description_html = "<strong>Harm Reductionist, community-engaged researcher, and drug policy advocate</strong> based in Colorado. I work at the intersection of lived experience, public health, and policy &mdash; partnering with people who use drugs, peer organizers, and coalitions to shift Colorado away from punishment and toward care."
+description_html = "<strong>Harm Reductionist, community-engaged researcher, and drug policy advocate</strong> based in Colorado. I work at the intersection of lived and living expertise, public health, and policy &mdash; partnering with people who use drugs, peer organizers, and coalitions to shift Colorado away from punishment and toward care."
 image = "/images/01.jpg"
 image_alt = "Betsy Craft"
 cta_button_link = "#contact"
@@ -86,7 +87,7 @@ block = "consulting-services"
 title = "Consulting Services Available"
 description_html = """
     <p>Areas where I partner with organizations, coalitions, and community
-    projects &mdash; grounded in lived experience and liberatory Harm Reduction.</p>"""
+    projects &mdash; grounded in lived and living expertise and Harm Reduction.</p>"""
 cards = [
     { title = "Elevating Voices in Research" },
     { title = "Policy and Organizing" },
@@ -103,6 +104,15 @@ description_html = """
 link_url = "/posts"
 show_posts = true
 [[extra.content_blocks]]
+block = "projects-carousel"
+title = "Selected Projects"
+description_html = """
+    <p>Coalitions, research collaborations, and community storytelling
+    projects &mdash; rooted in Harm Reduction and drug user leadership.</p>
+    """
+link_url = "/projects"
+interval = 5000
+[[extra.content_blocks]]
 block = "newsletter"
 newsletter_title = "Stay in touch"
 newsletter_description = "Updates on Harm Reduction work, drug policy in Colorado, and community projects."
@@ -115,12 +125,3 @@ form_description = "Have a project, collaboration, or speaking opportunity? Drop
 form_success_page = 'https://formspree.io/f/mlgvdddz'
 form_submission_email = "betsy.coloradodpc@gmail.com"
 form_button_text = "Send"
-[[extra.content_blocks]]
-block = "projects-carousel"
-title = "Selected Projects"
-description_html = """
-    <p>Coalitions, research collaborations, and community storytelling
-    projects &mdash; rooted in liberatory Harm Reduction and drug user
-    leadership.</p>"""
-link_url = "/projects"
-interval = 5000
