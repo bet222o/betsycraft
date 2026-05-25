@@ -12,10 +12,8 @@ image = 'images/projects/high-walls-summit.jpeg'
 **High Walls** is a community-led photovoice project on incarceration,
 mental health, and substance use, exhibited at the [**Redline
 Contemporary Art Center**](https://www.redlineart.org/high-walls-summit)
-in Denver on **August 17, 2025**. The project was created with community
-members who have lived experience of incarceration and probation in the
-Denver metro area, and presented in collaboration with Macht, Walker,
-Moffett, McConnellogue, and Wise.
+in Denver on **August 17, 2025**. The project was co-led by Dr. LeMasters and Betsy Craft alongside community
+advisory board members Macht, Walker, Moffett, McConnellogue, and Wise with lived experience of substance use, mental health and incarceration in the Denver metro area.
 
 ### About the method
 
