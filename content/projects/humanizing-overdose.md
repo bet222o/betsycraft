@@ -6,7 +6,7 @@ description = "Humanizing Drug Overdoses in Colorado: A Liberatory Harm Reductio
 [taxonomies]
 tags = ["graphic novel", "arts-based research", "comic", "liberatpry harm reduction", "project"]
 [extra]
-image = 'images/projects/high-walls-summit.jpeg'
+image = 'images/projects/publication.jpg'
 +++
 
 **High Walls** is a community-led photovoice project on incarceration,
