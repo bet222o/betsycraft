@@ -9,14 +9,10 @@ tags = ["Harm Reduction", "peer support", "drug policy", "jails", "project"]
 image = 'images/projects/C2PANlogo.png'
 +++
 
-The **Colorado Peer Policy Action Network (C2PAN)** is a peer-led network that
-brings the expertise of people with lived and living experience of drug use
-and incarceration into Colorado drug policy. C2PAN organizes peers, conducts
-education and storytelling inside Colorado jails, and partners with coalitions
-to advance evidence-based, anti-carceral policy at the state Capitol.
+The **Colorado Peer Policy Action Network (C2PAN)** is a statewide, grassroots coalition of Peer Support Professionals (PSPs) working alongside law enforcement and community partners to expand access to peer support services in Colorado jails. We reduce systemic barriers through evidence-informed policy and peer-informed solutions.
 
-I'm a co-founder of C2PAN and help lead our jail presentations, peer training,
-and advocacy work. A growing archive of our Colorado jail presentation
+As the founder of C2PAN, I work alongside Peers to develop  jail presentations, peer training,
+and jail policy advocacy work. A growing archive of our 2026 Colorado jail presentation
 materials is available here:
 
 [View the C2PAN Colorado Jail Presentations on Google Drive →](https://drive.google.com/drive/folders/1FFjEiSfN7vu7IWdrCTy7ESstDmLww2W-?usp=sharing)
