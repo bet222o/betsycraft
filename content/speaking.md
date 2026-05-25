@@ -44,7 +44,7 @@ content_html = """
       <h2>Selected 2025 talks, panels, &amp; posters</h2>
 
       <img
-        src="images/chloe-comic-panel.jpg"
+        src="/images/speaking/chloe-comic-panel.jpg"
         alt="Comic panel from Humanizing Drug Overdoses in Colorado"
         style="display: block; width: 100%; max-width: 800px; height: auto; margin:1.5rem auto; border-radius: 12px;"
       >
