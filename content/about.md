@@ -6,7 +6,7 @@ block = "page-heading"
 title = "About"
 [[extra.content_blocks]]
 block = "page-image"
-image = "/images/01.jpg"
+image = "/images/avatar.jpg"
 image_alt = "Betsy Craft"
 [[extra.content_blocks]]
 block = "content"
