@@ -3,7 +3,7 @@ base_url = "https://creativeresistanceco.com"
 
 title = "Creative Resistance"
 author = "Betsy Craft"
-description = "Harm Reductionist, community-engaged researcher, and drug policy advocate based in Colorado."
+description = "Creative Resistance is a Colorado-based consulting practice focused on public health, community-engaged research, lived expertise leadership, overdose prevention, drug policy, and arts-based systems change."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
