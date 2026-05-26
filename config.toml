@@ -46,7 +46,7 @@ social_icons = [
 ]
 date_format = "%d %b %Y"
 language_direction = "auto"
-keywords = ["Harm Reduction", "drug policy", "Colorado", "peer support", "naloxone", "advocacy"]
+keywords = ["Harm Reduction", "drug policy", "Colorado", "peer support", "naloxone", "advocacy", "community-engaged research", "public health"]
 
 [extra.newsletter]
 newsletter_title = "Stay in touch"
