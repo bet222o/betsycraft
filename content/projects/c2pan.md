@@ -2,9 +2,9 @@
 date = "2024-01-15"
 draft = false
 title = "C2PAN — Colorado Peer Policy Action Network"
-description = "Building peer-led partnerships for safer reentry, reduced recidivism, and overdose prevention."
+description = "Building peer-led partnerships for reduced recidivism and overdose prevention."
 [taxonomies]
-tags = ["overdose prevention", "peer support", "jail policy", "jails", "community-engaged research", "reentry coalition building"]
+tags = ["overdose prevention", "peer support", "jail policy", "community-engaged research", "reentry coalitions"]
 [extra]
 image = 'images/projects/C2PANlogo.png'
 +++
