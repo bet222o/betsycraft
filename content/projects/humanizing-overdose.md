@@ -2,32 +2,22 @@
 date = "2025-08-17"
 draft = false
 title = "Humanizing Drug Overdoses – A Liberatory Harm Reduction Comic"
-description = An arts-based research project about compassionate overdose, survival, and community care.
+description = An arts-based research project about overdose survival, community care, and how we keep us safe.
 [taxonomies]
-tags = ["graphic novel", "arts-based research", "comic", "liberatpry harm reduction", "project"]
+tags = ["graphic novel", "arts-based research", "comic", "liberatory harm reduction", "project"]
 [extra]
 image = 'images/projects/publication.jpg'
 +++
 
-<p>
-  <strong>"Humanizing Drug Overdoses in Colorado: A Liberatory Harm Reduction Comic Made with Sex Workers and People Who Use Drugs</strong> is a community-engaged, arts-based research collaboration published in the peer-reviewed <a href="https://clas.ucdenver.edu/anthropology/sites/default/files/attached-files/otanez_2025_1.pdf"><strong>Journal of American Folklore</strong></a>, Focused on overdose, stigma, Harm Reduction, sex work, and drug user health in Colorado, the project uses a graphic novel approach to share a personal narrative from an overdose survivor.  
-</p>
+**Humanizing Drug Overdoses in Colorado: A Liberatory Harm Reduction Comic Made with Sex Workers and People Who Use Drugs** is a community-engaged, arts-based research collaboration published in **August 2025** in the peer-reviewed [**Journal of American Folklore**](https://clas.ucdenver.edu/anthropology/sites/default/files/attached-files/otanez_2025_1.pdf).
 
-<p>
-  Focused on overdose, stigma, Harm Reduction, sex work, and drug user health in Colorado, the project was co-led by community-engaged researcher and CU Denver professor of anthropology <strong>Dr. Marty Otañez</strong>, alongside Betsy Craft, Burges, Talley, and Guerrero. The comic centers <strong>Chloe</strong>, a person who uses drugs and sex worker, during an overdose incident at her workplace in Colorado. Chloe’s story is based on Betsy’s overdose survival narrative and reflects the grief, stigma, trauma, survival, and lifesaving knowledge carried by people who use drugs and sex workers.
-</p>
+Focused on overdose, stigma, Harm Reduction, sex work, and drug user health in Colorado, the project was co-led by **Dr. Marty Otañez**, a community-engaged researcher and CU Denver professor of anthropology, alongside Betsy Craft, Burges, Talley, and Guerrero. The comic centers **Chloe**, a sex worker and person who uses drugs, during an overdose incident at her workplace in Colorado. Chloe’s story is based on Betsy’s overdose survival narrative and reflects the stigma, trauma, survival, and lifesaving knowledge carried by people who use drugs and sex workers.
 
-## About the method
+### About the Method
 
-<p>
-  This comic grew out of the <strong>Naloxone Champions</strong> project through a community-engaged research partnership with <strong>Dr. Marty Otañez</strong> and Betsy as the storyteller. Grounded in arts-based and ethnographic methods, the project uses comics to share overdose survival stories as public health knowledge, political education, and community care.
-</p>
+This comic grew out of the **Naloxone Champions** project through a community-engaged research partnership between **Dr. Marty Otañez** and Betsy as a storyteller, co-author, and community partner.
 
-<p>
-  For this project, Betsy chose to share their first overdose story through the character <strong>Chloe</strong>. The research team worked with artist <strong>Ven Talley</strong> to bring the story into image, dialogue, and narrative, creating a visual account of stigma, overdose, sex work, and the lifesaving knowledge that often remains outside public health data.
-</p>
+Grounded in arts-based and ethnographic methods, the research team worked with artist **Ven Talley** to bring Chloe’s story into image, dialogue, and narrative. The process centered careful collaboration, community accountability, and representation that avoided stigma, shock value, or harmful imagery while making visible the lifesaving knowledge that often remains outside public health data.
 
-<p>
-  Rather than treating people who use drugs and sex workers as subjects of study, this arts-based method positions them as narrators, knowledge-holders, and first responders. Through community-engaged storytelling, the comic elevates <strong>Liberatory Harm Reduction</strong>, compassionate overdose care, and overdose prevention centers as community-rooted responses shaped by survivors of the overdose crisis.
-</p>
+Rather than treating people who use drugs and sex workers as subjects of study, this method positions them as narrators, knowledge-holders, and **true first responders** in the overdose crisis. Through community-engaged storytelling, the comic elevates **Liberatory Harm Reduction**, **compassionate overdose care**, and **overdose prevention centers** as community-rooted responses shaped by people closest to the crisis.
 
