@@ -11,12 +11,9 @@ image_alt = "Betsy Craft"
 [[extra.content_blocks]]
 block = "content"
 content_html = """
-      <p>**I&rsquo;m Betsy Craft** &mdash; a Harm Reductionist, community-engaged
-      researcher, peer support practitioner, and drug policy advocate based in
-      Colorado. I work at the intersection of lived and living expertise and
-      public health, partnering with people who use drugs, frontline organizers,
-      academic researchers, and coalitions to advance evidence-based,
-      anti-carceral drug policy.</p>
+  <p>
+  <strong>I&rsquo;m Betsy Craft</strong> &mdash; a Harm Reductionist, community-engaged researcher, peer support practitioner, and drug policy advocate based in Colorado. I work at the intersection of lived and living expertise and public health, partnering with people who use drugs, frontline organizers, academic researchers, and coalitions to advance evidence-based, anti-carceral drug policy and community-led initiatives.
+</p>
 
       <p><a href="/cv/Betsy_Craft_CV.pdf"><strong>Download my full CV
       (PDF)</strong></a></p>
@@ -32,10 +29,10 @@ content_html = """
         access program.</li>
 
         <li><strong>Community Engagement Consultant</strong>, Dr.
-        Katherine LeMasters Lab, Division of General Internal Medicine,
+        Kate LeMasters, Division of General Internal Medicine,
         <strong>University of Colorado Anschutz Medical Campus</strong>
         (2023&ndash;present) &mdash; community-engaged qualitative
-        research on how the criminal legal system may impact mental health, substance use, and overdose.</li>
+        research on the intersection of the criminal legal system, mental health, substance use, and overdose.</li>
 
         <li><strong>Founder &amp; Principal</strong>, <strong>Craft Consulting
         LLC</strong> &mdash; community-engaged research, Harm Reduction
