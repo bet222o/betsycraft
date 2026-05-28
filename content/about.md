@@ -59,9 +59,8 @@ content_html = """
         appointment, two consecutive terms.</li>
       </ul>
 
-
 <h2>Areas of expertise</h2>
-<p style="text-align: center;">
+<p>
   Community-led and participatory research &middot; Health equity &middot; Drug user health and overdose prevention &middot; Non-punitive drug policy &middot; Mass incarceration &middot; Peer-led access to care &middot; Qualitative and arts-based research &middot; Community organizing &middot; Coalition-building &middot; Peer support &middot; Systems change &middot; Lived and living expertise leadership &middot; Peer-led street outreach implementation &middot; Relationship-driven public health engagement models &middot; Storytelling and narrative change &middot; Community advisory board development &middot; Policy strategy and advocacy &middot; Training and technical assistance &middot; Arts-based dissemination &middot; Overdose prevention education &middot; Community-centered public health strategy.
 </p>
 
