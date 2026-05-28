@@ -1,7 +1,7 @@
 +++
 date = "2025-08-17"
 draft = false
-title = "Photovoice at High Walls Summit"
+title = "Photovoice at High Walls"
 description = "A community-led photovoice project on incarceration, mental health, and substance use, exhibited as part of High Walls Summit at RedLine Contemporary Art Center."
 [taxonomies]
 tags = ["photovoice", "arts-based research", "incarceration", "mental health", "substance use", "community-engaged research"]
@@ -9,7 +9,7 @@ tags = ["photovoice", "arts-based research", "incarceration", "mental health", "
 image = 'images/projects/high-walls-summit.jpeg'
 +++
 
-**Photovoice at High Walls Summit** was a community-led photovoice project on incarceration, mental health, and substance use, exhibited as part of the broader [**High Walls Summit**](https://www.redlineart.org/high-walls-summit) at RedLine Contemporary Art Center in Denver on **August 17, 2025**.
+**Photovoice at High Walls** was a community-led photovoice project on incarceration, mental health, and substance use, exhibited as part of the broader [**High Walls Summit**](https://www.redlineart.org/high-walls-summit) at RedLine Contemporary Art Center in Denver on **August 17, 2025**.
 
 The High Walls Summit was a two-day community event exploring the impact of incarceration and the criminal legal system on individuals, families, communities, and society. The summit was connected to RedLine’s exhibition [**High Walls: Artists Navigate Structures of Confinement**](https://www.redlineart.org/high-walls-exhibition), presented in collaboration with [**Unchained Voices**](https://unchainedvoicesartshow.org/). Our photovoice project was one of several community-centered projects, conversations, and creative offerings featured within the summit.
 
